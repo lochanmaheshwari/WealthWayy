@@ -158,35 +158,49 @@ html {
     color: white;
 }
 
-@media only screen and (max-width : 700px ){
+@media only screen and (max-width: 700px) {
 
     .cover .information {
-        align-items: center;
-        max-width: 1000px ;    
+        max-width: 90%;
         margin: 0 auto;
         padding-top: 30%;
     }
+
     .information h3 {
         font-size: 14px;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
         font-weight: 300;
+        text-align: center; /* Adjusting alignment */
     }
+
     .information h3 span {
-        float: none;
-        font-size: 16px;
+        display: block; /* Changing to block level for better stacking */
+        font-size: 14px;
         color: rgba(255, 255, 255, 0.8);
+        text-align: center; /* Adjusting alignment */
     }
+
     .information h2 {
         font-size: 30px;
+        text-align: center; /* Adjusting alignment */
     }
-    .information h1 span{
-        font-size: 70px;
-        line-height: 120px;
-        color: rgb(1, 161, 1);
-        letter-spacing: 10px;
+
+    .information h1 span {
+        font-size: 60px; /* Reducing font size */
+        line-height: 80px; /* Adjusting line height */
+        letter-spacing: 8px;
+        text-align: center; /* Adjusting alignment */
+    }
+
+    .information a button {
+        margin: 20px auto; /* Centering the button */
+        width: 70%; /* Adjusting width */
+        padding: 10px 40px; /* Adjusting padding */
+        font-size: 16px; /* Adjusting font size */
     }
 
 }
+
 
 /* *******************************   About us  **************************************** */
 .about{
