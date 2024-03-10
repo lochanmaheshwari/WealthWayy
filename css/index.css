@@ -317,6 +317,7 @@ html {
         font-size: 30px;
     }
 }
+
 /* ************************************  Service  ************************** */
 .service{
     width: 100%;
@@ -361,30 +362,27 @@ html {
     font-weight: 500;
 }
 
-@media only screen and (max-width: 700px) {
-    /* Services Section */
-    .service {
-        padding: 5vh 0; /* Adjust padding using viewport units */
-    }
+@media only screen and (max-width : 700px ) {
 
+    /* ************************************  Service  ************************** */
+    .service{
+        padding: 70px 0;
+    }
     .service h1 {
-        font-size: 6vw; /* Adjust font size using viewport units */
+        font-size: 30px;
     }
-
+    /* details service */
     .service .details {
-        width: 90%; /* Adjust width using viewport units */
-        display: block; /* Change to block for smaller screens */
-        padding-top: 3vh; /* Adjust padding using viewport units */
-        margin: 0 auto;
+        width: 100%;
+        display: block;
+        padding-top: 25px;   
     }
-
     .details .info {
-        padding: 0 2vw 3vh; /* Adjust padding using viewport units */
+        padding: 0 15px 25px;
     }
-
     .details .info .logo {
-        padding: 2vw; /* Adjust padding using viewport units */
-        width: 20vw; /* Adjust width using viewport units */
+        padding: 34px;
+        width:45px;
     }
 }
 
@@ -519,6 +517,29 @@ html {
     background-position: right;
 }
 
+/* contact mobile view */ 
+@media only screen and (max-width : 700px) {
+    .contact {
+        padding: 50px 0;
+    }
+    .contactcontanner {
+        width: 95%;
+        display: block;
+    }
+    .contactcontanner .contanner {
+        width: 100%;
+    }
+    /* message form */
+    .messageform {
+        width: 100%;
+        margin-left: 0px;
+        padding: 1px 0;
+    }
+    .messageform .form {
+        width: 93%;
+        margin: 50px auto;
+    }
+}
 
 /****************************** FOOTER **************************/
 footer {
