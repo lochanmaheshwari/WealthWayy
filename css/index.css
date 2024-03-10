@@ -161,42 +161,42 @@ html {
 @media only screen and (max-width: 700px) {
 
     .cover .information {
-        max-width: 90%;
+        max-width: 90%; /* Adjusting max-width relative to the screen */
         margin: 0 auto;
-        padding-top: 30%;
+        padding-top: 30vh; /* Using viewport height for padding */
     }
 
     .information h3 {
-        font-size: 14px;
-        letter-spacing: 2px;
+        font-size: 3vw; /* Using viewport width for font size */
+        letter-spacing: 0.3vw; /* Using viewport width for letter spacing */
         font-weight: 300;
         text-align: center; /* Adjusting alignment */
     }
 
     .information h3 span {
         display: block; /* Changing to block level for better stacking */
-        font-size: 14px;
+        font-size: 2.5vw; /* Using viewport width for font size */
         color: rgba(255, 255, 255, 0.8);
         text-align: center; /* Adjusting alignment */
     }
 
     .information h2 {
-        font-size: 30px;
+        font-size: 6vw; /* Using viewport width for font size */
         text-align: center; /* Adjusting alignment */
     }
 
     .information h1 span {
-        font-size: 60px; /* Reducing font size */
-        line-height: 80px; /* Adjusting line height */
-        letter-spacing: 8px;
+        font-size: 10vw; /* Using viewport width for font size */
+        line-height: 12vw; /* Using viewport width for line height */
+        letter-spacing: 1vw; /* Using viewport width for letter spacing */
         text-align: center; /* Adjusting alignment */
     }
 
     .information a button {
-        margin: 20px auto; /* Centering the button */
+        margin: 5vh auto; /* Centering the button using viewport height */
         width: 70%; /* Adjusting width */
-        padding: 10px 40px; /* Adjusting padding */
-        font-size: 16px; /* Adjusting font size */
+        padding: 2vh 5vw; /* Using viewport units for padding */
+        font-size: 3vw; /* Using viewport width for font size */
     }
 
 }
