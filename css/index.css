@@ -276,16 +276,16 @@ html {
 .aboutcontent a:hover {
     background-position: right;
 }
-@media only screen and (max-width : 700px ) {
-
-    /* *******************************   About us  **************************************** */
-    .about{
+@media only screen and (max-width: 700px) {
+    /* About us */
+    .about {
         width: 100%;
         display: block;
-        background-color:#F8F9FA;
+        background-color: #F8F9FA;
         padding-top: 0px;
-
     }
+
+    /* About image */
     .about .imgcontanner {
         width: 100%;
         padding: 3%;
@@ -297,20 +297,22 @@ html {
         width: 100%;
         height: auto; /* Allow height to adjust based on aspect ratio */
         display: block; 
+    }
 
-    /* about content */
+    /* About content */
     .about .aboutcontent {
         width: 100%;
         padding: 65px 4%;
         box-sizing: border-box;
     }
-    .aboutcontent h5 {
+    .about .aboutcontent h5 {
         margin-bottom: 10px;
     }
-    .aboutcontent h1 {
+    .about .aboutcontent h1 {
         font-size: 30px;
     }
 }
+
 
 /* ************************************  Service  ************************** */
 .service{
