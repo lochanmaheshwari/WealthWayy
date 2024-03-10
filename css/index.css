@@ -201,6 +201,7 @@ html {
         width: 70%; /* Adjusting width */
         padding: 2vh 5vw; /* Using viewport units for padding */
         font-size: 3vw; /* Using viewport width for font size */
+        text-align: center;
     }
 
 }
